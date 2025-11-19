@@ -16,7 +16,7 @@ Gain hands-on experience in designing ER diagrams that represent database struct
 
 FlexiFit Gym wants a database to manage its members, trainers, fitness programs, and payments in an organized and scalable way.
 
-### Requirements (from given content)
+### Requirements
 
 * Members are stored with details like **name**, **membership type**, and **start date**.
 * Each table has a **Primary Key**:
@@ -39,12 +39,8 @@ FlexiFit Gym wants a database to manage its members, trainers, fitness programs,
 * **Composite Keys** in join tables (e.g., `member_id + program_id`) manage M:N relationships by splitting them into two 1:N relationships.
 
 ### ER Diagram
+<img width="840" height="730" alt="image" src="https://github.com/user-attachments/assets/a76519f6-6c5c-45ea-94c6-a2bbb4acf460" />
 
-*Paste or attach your diagram here*
-
-**ER Diagram**
-
----
 
 ### Entities and Attributes
 
@@ -92,7 +88,7 @@ FlexiFit Gym wants a database to manage its members, trainers, fitness programs,
 
 The Central Library wants to manage book lending, library members, events, rooms, and fines in a structured database.
 
-### Requirements (from given content)
+### Requirements
 
 * **Primary keys**:
 
@@ -114,10 +110,8 @@ The Central Library wants to manage book lending, library members, events, rooms
 * Design is normalized and modular with separate tables for books, events, rooms, and fines to reduce redundancy and improve scalability.
 
 ### ER Diagram
+<img width="857" height="685" alt="image" src="https://github.com/user-attachments/assets/11fac8ac-bfde-4394-b778-d97f9c784249" />
 
-*Paste or attach your diagram here*
-
-**ER Diagram**
 
 ---
 
@@ -173,7 +167,7 @@ The Central Library wants to manage book lending, library members, events, rooms
 
 A popular restaurant wants to manage reservations, walk-in customers, orders, dishes, billing, and waiters using a structured database.
 
-### Requirements (from given content)
+### Requirements
 
 * Each table has a **Primary Key**:
 
@@ -198,10 +192,8 @@ A popular restaurant wants to manage reservations, walk-in customers, orders, di
 *(Note: To satisfy the requirement “Each reservation can have multiple orders”, we logically assume `reservation_id` should be present as FK in the Orders table.)*
 
 ### ER Diagram
+<img width="878" height="663" alt="image" src="https://github.com/user-attachments/assets/20fb1a17-1f06-4bbc-a2db-bbcbd1ea5197" />
 
-*Paste or attach your diagram here*
-
-**ER Diagram**
 
 ---
 
