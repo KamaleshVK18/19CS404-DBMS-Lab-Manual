@@ -117,7 +117,7 @@ The Central Library wants to manage book lending, library members, events, rooms
 
 ### Entities and Attributes
 
-(From the given structure + minimal associative entities implied by the description.)
+
 
 | Entity               | Attributes (PK, FK)                                                            | Notes                                                                                                    |
 | -------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
@@ -132,7 +132,6 @@ The Central Library wants to manage book lending, library members, events, rooms
 | Speakers*            | **speaker_id (PK)**, name, description                                         | *Assumed entity for event speakers/authors.                                                              |
 | Event_Speakers*      | **event_id (PK, FK)**, **speaker_id (PK, FK)**                                 | *Assumed to manage M:N between Events and Speakers.                                                      |
 
-(*Marked entities are logical extensions implied by the requirements.)
 
 ---
 
