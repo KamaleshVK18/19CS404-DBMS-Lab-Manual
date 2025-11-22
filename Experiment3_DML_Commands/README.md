@@ -203,7 +203,8 @@ FROM Calculations;
 
 ## MARKS:
 
-<img width="1915" height="523" alt="image" src="https://github.com/user-attachments/assets/d67405f8-9222-40f4-bf28-1f6996f41262" />
+<img width="1913" height="1131" alt="image" src="https://github.com/user-attachments/assets/e0f2d981-74b1-4668-9dd1-5a50f66b6dff" />
+
 
 
 ## RESULT
