@@ -441,4 +441,3 @@ END;
 
 ## RESULT
 Thus, the program successfully executed and displayed employee details using a cursor. 
-
