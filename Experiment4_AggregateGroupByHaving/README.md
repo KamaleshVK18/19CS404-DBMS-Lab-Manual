@@ -206,7 +206,7 @@ Having SUM(income)>200000;
 <img width="517" height="233" alt="image" src="https://github.com/user-attachments/assets/fa38070f-c364-47df-9769-59a0ad52b02c" />
 
 ## MARKS:
-<img width="1918" height="1047" alt="image" src="https://github.com/user-attachments/assets/1e07ecc0-c983-484e-ad7d-76c415593681" />
+<img width="1913" height="1131" alt="image" src="https://github.com/user-attachments/assets/3a34e7ec-c861-47a2-b54e-77d89fc09109" />
 
 
 ## RESULT
