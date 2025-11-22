@@ -38,123 +38,175 @@ HAVING condition;
 
 **Question 1**
 --
--- Paste Question 1 here
+--What is the most common time slot for appointments for each doctor?
 
 ```sql
--- Paste your SQL code below for Question 1
+--
+Select DoctorID,
+       SUBSTR(CAST(AppointmentDateTime AS CHAR),12,5) AS TimeSlot,
+       Count(*) AS TotalAppointments
+From Appointments
+Group By DoctorID,Timeslot
+Order By TotalAppointments DESC;
+       
 ```
 
 **Output:**
 
-![Output1](output.png)
+<img width="855" height="255" alt="image" src="https://github.com/user-attachments/assets/d6d2a172-037e-4de1-8c19-cb1b203545ef" />
+
 
 **Question 2**
 ---
--- Paste Question 2 here
+-- How many male and female doctors are there in each medical specialty?
 
 ```sql
--- Paste your SQL code below for Question 2
+--
+Select Specialty,Gender,COUNT(*) AS TotalDoctors
+from Doctors
+Group By Specialty,Gender;
 ```
 
 **Output:**
 
-![Output2](output.png)
+<img width="894" height="254" alt="image" src="https://github.com/user-attachments/assets/ceb48d66-14a8-46d3-9651-03f96f283a11" />
+
 
 **Question 3**
 ---
--- Paste Question 3 here
+-- How many medical records does each doctor have?
 
 ```sql
--- Paste your SQL code below for Question 3
+--
+Select DoctorID,
+       COUNT(RecordID) AS TotalRecords
+from MedicalRecords
+Group BY DoctorID;
 ```
 
 **Output:**
 
-![Output3](output.png)
+<img width="565" height="236" alt="image" src="https://github.com/user-attachments/assets/94662d3f-6b5f-4112-84b4-975026553088" />
+
 
 **Question 4**
 ---
--- Paste Question 4 here
+-- Write a SQL query that counts the number of unique salespeople. Return number of salespeople.
 
 ```sql
--- Paste your SQL code below for Question 4
+--
+Select COUNT(DISTINCT salesman_id) AS COUNT
+from orders;
 ```
 
 **Output:**
 
-![Output4](output.png)
+<img width="304" height="224" alt="image" src="https://github.com/user-attachments/assets/698bc1f2-7cc4-4bca-b9a0-5f1f95735ee8" />
+
 
 **Question 5**
 ---
--- Paste Question 5 here
+-- Write a SQL query to find the total income of employees aged 40 or above.
+
 
 ```sql
--- Paste your SQL code below for Question 5
+--
+Select SUM(income) as total_income
+from employee
+Where age>=40;
 ```
 
 **Output:**
 
-![Output5](output.png)
+<img width="343" height="219" alt="image" src="https://github.com/user-attachments/assets/b383fa0f-54bc-43b8-b9b2-618bacfd4d81" />
+
 
 **Question 6**
 ---
--- Paste Question 6 here
+--Write a SQL query to Calculate the average income of the employees with names starting with 'A': 
 
 ```sql
--- Paste your SQL code below for Question 6
+--
+ Select Avg(income) AS avg_income
+from employee
+Where name LIKE 'A%';
 ```
 
 **Output:**
 
-![Output6](output.png)
+<img width="302" height="224" alt="image" src="https://github.com/user-attachments/assets/8ae84e38-5ce3-41b6-867f-7b70a3756a86" />
+
 
 **Question 7**
 ---
--- Paste Question 7 here
+-- Write a SQL query to find the total number of unique cities in the customer table?
 
 ```sql
--- Paste your SQL code below for Question 7
+--
+Select COUNT(DISTINCT city) AS unique_cities
+from customer;
 ```
 
 **Output:**
 
-![Output7](output.png)
+<img width="364" height="226" alt="image" src="https://github.com/user-attachments/assets/3d978bcb-e13b-4c00-9111-e2b3e3895ffc" />
+
 
 **Question 8**
 ---
--- Paste Question 8 here
+-- Write the SQL query that accomplishes the grouping of data by joining date (jdate), calculates the average work hours for each date, and excludes dates where the average work hour is not less than 10.
 
 ```sql
--- Paste your SQL code below for Question 8
+--
+Select jdate,
+       AVG(workhour)
+from employee1
+Group by jdate
+Having AVG(workhour)<10;
 ```
 
 **Output:**
 
-![Output8](output.png)
+<img width="576" height="247" alt="image" src="https://github.com/user-attachments/assets/dad79ff2-92fb-4bb9-8252-c1efb9021b85" />
+
 
 **Question 9**
 ---
--- Paste Question 9 here
+-- Write the SQL query that accomplishes the selection of number of products for each category from products table which includes only those products where the category ID is greater than 2.
 
 ```sql
--- Paste your SQL code below for Question 9
+--
+Select category_id,
+       Count(category_id) AS COUNT
+from products
+Group by category_id
+Having category_id>2;
 ```
 
 **Output:**
 
-![Output9](output.png)
+<img width="537" height="245" alt="image" src="https://github.com/user-attachments/assets/59584926-e290-4e39-a04c-ce763f53e926" />
+
 
 **Question 10**
 ---
--- Paste Question 10 here
+-- Write the SQL query that achieves the grouping of data by city, calculates the total income for each city, and includes only those cities where the total income sum is greater than 200,000.
 
 ```sql
--- Paste your SQL code below for Question 10
+--
+Select city,
+       SUM(income) AS Income
+From employee
+Group by city
+Having SUM(income)>200000;
 ```
 
 **Output:**
 
-![Output10](output.png)
+<img width="517" height="233" alt="image" src="https://github.com/user-attachments/assets/fa38070f-c364-47df-9769-59a0ad52b02c" />
+
+## MARKS:
+<img width="1918" height="1047" alt="image" src="https://github.com/user-attachments/assets/1e07ecc0-c983-484e-ad7d-76c415593681" />
 
 
 ## RESULT
