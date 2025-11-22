@@ -314,7 +314,7 @@ max_salary INT DEFAULT NULL
 <img width="1047" height="147" alt="image" src="https://github.com/user-attachments/assets/55d1453b-3358-41de-ab87-187e811ae9af" />
 
 
-** marks : **:
+## MARKS:
 
 <img width="1912" height="1072" alt="image" src="https://github.com/user-attachments/assets/0d57c7fd-0836-45a4-ab11-90cd776ff434" />
 
