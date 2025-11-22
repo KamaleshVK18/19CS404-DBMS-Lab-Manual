@@ -322,3 +322,4 @@ max_salary INT DEFAULT NULL
 
 
 ## RESULT
+Thus the sql queries for DDL Commands have been executed successfully.
