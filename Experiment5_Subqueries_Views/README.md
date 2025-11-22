@@ -231,7 +231,8 @@ WHERE SALARY < 2500;
 
 ## MARKS:
 
-<img width="1918" height="949" alt="image" src="https://github.com/user-attachments/assets/af507c61-f6f7-41cb-b390-de820936ee9e" />
+<img width="1913" height="1131" alt="image" src="https://github.com/user-attachments/assets/ce33cbdb-ae53-43b2-beec-f93e9de0b383" />
+
 
 ## RESULT
 Thus, the SQL queries to implement subqueries and views have been executed successfully.
