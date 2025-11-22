@@ -285,7 +285,8 @@ INNER JOIN
 
 ## MARKS:
 
-<img width="1919" height="763" alt="image" src="https://github.com/user-attachments/assets/08f2f77c-681c-49d2-8b20-acf3dfcccfeb" />
+<img width="1913" height="1131" alt="image" src="https://github.com/user-attachments/assets/81fc736c-6b34-4130-8e98-4facb278bc27" />
+
 
 
 
